@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Head from './Head.jsx';
+import Footer from './Footer.jsx';
 
-ReactDOM.render(<Head/>, document.getElementById('head'));
+ReactDOM.render(<Footer/>, document.getElementById('footer'));

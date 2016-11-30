@@ -54,13 +54,13 @@
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	var _App = __webpack_require__(178);
+	var _Footer = __webpack_require__(178);
 
-	var _App2 = _interopRequireDefault(_App);
+	var _Footer2 = _interopRequireDefault(_Footer);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	_reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById('app'));
+	_reactDom2.default.render(_react2.default.createElement(_Footer2.default, null), document.getElementById('footer'));
 
 /***/ },
 /* 1 */
@@ -21453,7 +21453,7 @@
 /* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
@@ -21473,30 +21473,35 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var App = function (_React$Component) {
-	    _inherits(App, _React$Component);
+	var Footer = function (_React$Component) {
+	    _inherits(Footer, _React$Component);
 
-	    function App() {
-	        _classCallCheck(this, App);
+	    function Footer() {
+	        _classCallCheck(this, Footer);
 
-	        return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
+	        return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
 	    }
 
-	    _createClass(App, [{
-	        key: 'render',
+	    _createClass(Footer, [{
+	        key: "componentDidMount",
+	        value: function componentDidMount() {
+	            alert("ciee");
+	        }
+	    }, {
+	        key: "render",
 	        value: function render() {
 	            return _react2.default.createElement(
-	                'div',
+	                "div",
 	                null,
-	                'Selamat datang di ReactJS'
+	                _react2.default.createElement("div", { onLoad: this.componentDidMount })
 	            );
 	        }
 	    }]);
 
-	    return App;
+	    return Footer;
 	}(_react2.default.Component);
 
-	exports.default = App;
+	exports.default = Footer;
 
 /***/ }
 /******/ ]);
