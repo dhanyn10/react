@@ -74,6 +74,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	//import for navigation element
 	var BootstrapNav = _react2.default.createElement(
 	    _reactBootstrap.Navbar,
 	    null,
@@ -131,41 +132,44 @@
 	    )
 	);
 
+	//import for button
+
+
 	var BootstrapBtn = _react2.default.createElement(
-	    'div',
+	    _reactBootstrap.ButtonToolbar,
 	    null,
 	    _react2.default.createElement(
-	        Button,
+	        _reactBootstrap.Button,
 	        null,
 	        'Default'
 	    ),
 	    _react2.default.createElement(
-	        Button,
+	        _reactBootstrap.Button,
 	        { bsStyle: 'primary' },
 	        'Primary'
 	    ),
 	    _react2.default.createElement(
-	        Button,
+	        _reactBootstrap.Button,
 	        { bsStyle: 'success' },
 	        'Success'
 	    ),
 	    _react2.default.createElement(
-	        Button,
+	        _reactBootstrap.Button,
 	        { bsStyle: 'info' },
 	        'Info'
 	    ),
 	    _react2.default.createElement(
-	        Button,
+	        _reactBootstrap.Button,
 	        { bsStyle: 'warning' },
 	        'Warning'
 	    ),
 	    _react2.default.createElement(
-	        Button,
+	        _reactBootstrap.Button,
 	        { bsStyle: 'danger' },
 	        'Danger'
 	    ),
 	    _react2.default.createElement(
-	        Button,
+	        _reactBootstrap.Button,
 	        { bsStyle: 'link' },
 	        'Link'
 	    )
