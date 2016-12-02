@@ -46,9 +46,9 @@
 
 	'use strict';
 
-	var _app = __webpack_require__(1);
+	var _elemen = __webpack_require__(1);
 
-	var _app2 = _interopRequireDefault(_app);
+	var _elemen2 = _interopRequireDefault(_elemen);
 
 	var _bootstrap = __webpack_require__(431);
 
@@ -75,62 +75,104 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var BootstrapNav = _react2.default.createElement(
-	  _reactBootstrap.Navbar,
-	  null,
-	  _react2.default.createElement(
-	    _reactBootstrap.Navbar.Header,
+	    _reactBootstrap.Navbar,
 	    null,
 	    _react2.default.createElement(
-	      _reactBootstrap.Navbar.Brand,
-	      null,
-	      _react2.default.createElement(
-	        'a',
-	        { href: '#' },
-	        'React-Bootstrap'
-	      )
-	    )
-	  ),
-	  _react2.default.createElement(
-	    _reactBootstrap.Nav,
-	    null,
-	    _react2.default.createElement(
-	      _reactBootstrap.NavItem,
-	      { eventKey: 1, href: '#' },
-	      'Link'
+	        _reactBootstrap.Navbar.Header,
+	        null,
+	        _react2.default.createElement(
+	            _reactBootstrap.Navbar.Brand,
+	            null,
+	            _react2.default.createElement(
+	                'a',
+	                { href: '#' },
+	                'React-Bootstrap'
+	            )
+	        )
 	    ),
 	    _react2.default.createElement(
-	      _reactBootstrap.NavItem,
-	      { eventKey: 2, href: '#' },
-	      'Link'
-	    ),
-	    _react2.default.createElement(
-	      _reactBootstrap.NavDropdown,
-	      { eventKey: 3, title: 'Dropdown', id: 'basic-nav-dropdown' },
-	      _react2.default.createElement(
-	        _reactBootstrap.MenuItem,
-	        { eventKey: 3.1 },
-	        'Action'
-	      ),
-	      _react2.default.createElement(
-	        _reactBootstrap.MenuItem,
-	        { eventKey: 3.2 },
-	        'Another action'
-	      ),
-	      _react2.default.createElement(
-	        _reactBootstrap.MenuItem,
-	        { eventKey: 3.3 },
-	        'Something else here'
-	      ),
-	      _react2.default.createElement(_reactBootstrap.MenuItem, { divider: true }),
-	      _react2.default.createElement(
-	        _reactBootstrap.MenuItem,
-	        { eventKey: 3.3 },
-	        'Separated link'
-	      )
+	        _reactBootstrap.Nav,
+	        null,
+	        _react2.default.createElement(
+	            _reactBootstrap.NavItem,
+	            { eventKey: 1, href: '#' },
+	            'Link'
+	        ),
+	        _react2.default.createElement(
+	            _reactBootstrap.NavItem,
+	            { eventKey: 2, href: '#' },
+	            'Link'
+	        ),
+	        _react2.default.createElement(
+	            _reactBootstrap.NavDropdown,
+	            { eventKey: 3, title: 'Dropdown', id: 'basic-nav-dropdown' },
+	            _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.1 },
+	                'Action'
+	            ),
+	            _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.2 },
+	                'Another action'
+	            ),
+	            _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.3 },
+	                'Something else here'
+	            ),
+	            _react2.default.createElement(_reactBootstrap.MenuItem, { divider: true }),
+	            _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { eventKey: 3.3 },
+	                'Separated link'
+	            )
+	        )
 	    )
-	  )
 	);
+
+	var BootstrapBtn = _react2.default.createElement(
+	    'div',
+	    null,
+	    _react2.default.createElement(
+	        Button,
+	        null,
+	        'Default'
+	    ),
+	    _react2.default.createElement(
+	        Button,
+	        { bsStyle: 'primary' },
+	        'Primary'
+	    ),
+	    _react2.default.createElement(
+	        Button,
+	        { bsStyle: 'success' },
+	        'Success'
+	    ),
+	    _react2.default.createElement(
+	        Button,
+	        { bsStyle: 'info' },
+	        'Info'
+	    ),
+	    _react2.default.createElement(
+	        Button,
+	        { bsStyle: 'warning' },
+	        'Warning'
+	    ),
+	    _react2.default.createElement(
+	        Button,
+	        { bsStyle: 'danger' },
+	        'Danger'
+	    ),
+	    _react2.default.createElement(
+	        Button,
+	        { bsStyle: 'link' },
+	        'Link'
+	    )
+	);
+
 	_reactDom2.default.render(BootstrapNav, document.getElementById('nav'));
+	_reactDom2.default.render(BootstrapBtn, document.getElementById('button'));
 
 /***/ },
 /* 2 */
