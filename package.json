@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dhanyn10/react/issues"
   },
-  "homepage": "https://github.com/dhanyn10/react#readme"
+  "homepage": "https://github.com/dhanyn10/react#readme",
+  "dependencies": {
+    "uglifyjs": "^2.4.10"
+  }
 }
