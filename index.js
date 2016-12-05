@@ -46,9 +46,9 @@
 
 	'use strict';
 
-	var _elemen = __webpack_require__(1);
+	var _Bootstrap = __webpack_require__(1);
 
-	var _elemen2 = _interopRequireDefault(_elemen);
+	var _Bootstrap2 = _interopRequireDefault(_Bootstrap);
 
 	var _bootstrap = __webpack_require__(431);
 
@@ -74,109 +74,13 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	//import for navigation element
-	var BootstrapNav = _react2.default.createElement(
-	    _reactBootstrap.Navbar,
-	    null,
-	    _react2.default.createElement(
-	        _reactBootstrap.Navbar.Header,
-	        null,
-	        _react2.default.createElement(
-	            _reactBootstrap.Navbar.Brand,
-	            null,
-	            _react2.default.createElement(
-	                'a',
-	                { href: '#' },
-	                'React-Bootstrap'
-	            )
-	        )
-	    ),
-	    _react2.default.createElement(
-	        _reactBootstrap.Nav,
-	        null,
-	        _react2.default.createElement(
-	            _reactBootstrap.NavItem,
-	            { eventKey: 1, href: '#' },
-	            'Link'
-	        ),
-	        _react2.default.createElement(
-	            _reactBootstrap.NavItem,
-	            { eventKey: 2, href: '#' },
-	            'Link'
-	        ),
-	        _react2.default.createElement(
-	            _reactBootstrap.NavDropdown,
-	            { eventKey: 3, title: 'Dropdown', id: 'basic-nav-dropdown' },
-	            _react2.default.createElement(
-	                _reactBootstrap.MenuItem,
-	                { eventKey: 3.1 },
-	                'Action'
-	            ),
-	            _react2.default.createElement(
-	                _reactBootstrap.MenuItem,
-	                { eventKey: 3.2 },
-	                'Another action'
-	            ),
-	            _react2.default.createElement(
-	                _reactBootstrap.MenuItem,
-	                { eventKey: 3.3 },
-	                'Something else here'
-	            ),
-	            _react2.default.createElement(_reactBootstrap.MenuItem, { divider: true }),
-	            _react2.default.createElement(
-	                _reactBootstrap.MenuItem,
-	                { eventKey: 3.3 },
-	                'Separated link'
-	            )
-	        )
-	    )
+	var tbl = _react2.default.createElement(
+	    _reactBootstrap.Button,
+	    { className: 'btn btn-default' },
+	    'klik saya'
 	);
 
-	//import for button
-
-
-	var BootstrapBtn = _react2.default.createElement(
-	    _reactBootstrap.ButtonToolbar,
-	    null,
-	    _react2.default.createElement(
-	        _reactBootstrap.Button,
-	        null,
-	        'Default'
-	    ),
-	    _react2.default.createElement(
-	        _reactBootstrap.Button,
-	        { bsStyle: 'primary' },
-	        'Primary'
-	    ),
-	    _react2.default.createElement(
-	        _reactBootstrap.Button,
-	        { bsStyle: 'success' },
-	        'Success'
-	    ),
-	    _react2.default.createElement(
-	        _reactBootstrap.Button,
-	        { bsStyle: 'info' },
-	        'Info'
-	    ),
-	    _react2.default.createElement(
-	        _reactBootstrap.Button,
-	        { bsStyle: 'warning' },
-	        'Warning'
-	    ),
-	    _react2.default.createElement(
-	        _reactBootstrap.Button,
-	        { bsStyle: 'danger' },
-	        'Danger'
-	    ),
-	    _react2.default.createElement(
-	        _reactBootstrap.Button,
-	        { bsStyle: 'link' },
-	        'Link'
-	    )
-	);
-
-	_reactDom2.default.render(BootstrapNav, document.getElementById('nav'));
-	_reactDom2.default.render(BootstrapBtn, document.getElementById('button'));
+	_reactDom2.default.render(tbl, document.getElementById('tombol'));
 
 /***/ },
 /* 2 */
