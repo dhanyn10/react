@@ -1,7 +1,7 @@
-config = {
-    entry   : "./main.js",
+module.exports = {
+    entry   : "./main.jsx",
     output  : {
-        path        : './',
+        path        : __dirname,
         filename    : 'index.js'
     },
     devServer : {
@@ -21,5 +21,3 @@ config = {
         ]
     }
 }
-
-module.exports = config;

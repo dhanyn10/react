@@ -9,7 +9,7 @@ class Head extends React.Component
               <MetaTags>
                     <meta charSet="utf-8"/>
                     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-                    <title>Page 1</title>
+                    <title>ReactJS Tutorial</title>
               </MetaTags>
         );
     }
