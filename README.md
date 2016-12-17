@@ -1,4 +1,4 @@
-# ReactJS Meta tags
+# ReactJS Meta Tags
 collection of example reactjs  
 # Screenshot
 ![reactjs meta tags screenshot](https://github.com/dhanyn10/react/raw/react-meta-tags/reactjs-meta-tags-tutorial.png)  
