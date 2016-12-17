@@ -12,4 +12,4 @@ ReactDOM.render((
         <Route path="/pages/contact" component={contact}/>
     </Route>
 </Router>
-), document.body);
+), document.getElementById('app'));
