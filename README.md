@@ -1,8 +1,10 @@
-# ReactJS Meta Tags
-collection of example reactjs  
-# Screenshot
-![reactjs meta tags screenshot](https://github.com/dhanyn10/react/raw/react-meta-tags/reactjs-meta-tags-tutorial.png)  
-# Tutorials
-For a newbie, You can find tutorial to run this react program in my blog here: [membuat reactjs sederhana](http://www.dhan.web.id/2016/11/membuat-program-sederhana-dengan-reactjs.html)
-# Development Guide  
-you can find the guide how to use react-meta-tags here : [react-meta-tags](https://github.com/s-yadav/react-meta-tags)
+# React Development  
+Here are the collection of basic example for ReactJS, all the commit to master branch
+is the most recent development. You can find the other development part in other branch.
+  
+# Contributing  
+For a while, you can simply contributing to this repository by pull request.  
+
+# How To Use?  
+If this is your first time to using ReactJS, you can find tutorial 
+[beginning with reactjs in Bahasa Indonesia](http://www.penku.net/2017/06/membuat-program-sederhana-dengan-reactjs.html)
